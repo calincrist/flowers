@@ -17,18 +17,18 @@
                 <rect key="frame" x="0.0" y="0.0" width="368" height="146"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <stackView opaque="NO" contentMode="scaleToFill" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="MNB-En-QyY">
+                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="MNB-En-QyY">
                         <rect key="frame" x="15" y="15" width="338" height="116"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gaV-qH-MTD">
                                 <rect key="frame" x="0.0" y="0.0" width="116" height="116"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="116" id="0CT-ZB-McO"/>
                                     <constraint firstAttribute="width" secondItem="gaV-qH-MTD" secondAttribute="height" multiplier="1:1" id="CB8-Fn-1Dm"/>
+                                    <constraint firstAttribute="height" constant="116" id="dzq-uU-JlR"/>
                                 </constraints>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="Ob3-X6-WQZ">
-                                <rect key="frame" x="124" y="0.0" width="214" height="116"/>
+                                <rect key="frame" x="124" y="28.5" width="214" height="59"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PY3-NG-Eat">
                                         <rect key="frame" x="0.0" y="0.0" width="214" height="20.5"/>
@@ -37,13 +37,13 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cm1-0b-gEp">
-                                        <rect key="frame" x="0.0" y="49" width="214" height="20.5"/>
+                                        <rect key="frame" x="0.0" y="20.5" width="214" height="20.5"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ese-eQ-tYf">
-                                        <rect key="frame" x="0.0" y="98" width="214" height="18"/>
+                                        <rect key="frame" x="0.0" y="41" width="214" height="18"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
